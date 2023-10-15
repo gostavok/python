@@ -1,0 +1,223 @@
+version: "3.1"
+
+rules:
+
+- rule: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: greet
+  steps:
+  - intent: greet2
+  - action: utter_greet2
+
+- rule: goodbye 2
+  steps:
+  - intent: goodbye2 
+  - action: utter_goodbye2
+
+- rule: o que vc faz
+  steps:
+  - intent: oque_vc_faz 
+  - action: utter_oque_vc_faz
+
+- rule: orcamento_planejamento
+  steps:
+  - intent: orcamento_planejamento 
+  - action: utter_orcamento_planejamento
+
+- rule: orcamento_importancia
+  steps:
+  - intent: orcamento_importancia 
+  - action: utter_orcamento_importancia
+
+- rule: orcamento_comecar
+  steps:
+  - intent: orcamento_comecar
+  - action: utter_orcamento_comecar
+
+- rule: orcamento_passos_eficientes
+  steps:
+  - intent: orcamento_passos_eficientes
+  - action: utter_orcamento_passos_eficientes
+
+- rule: controlar_gastos
+  steps:
+  - intent: controlar_gastos
+  - action: utter_controlar_gastos
+
+- rule: orcamento_poronde_comecar
+  steps:
+  - intent: orcamento_poronde_comecar
+  - action: utter_orcamento_poronde_comecar
+
+- rule: orcamento_economizar_apertado
+  steps:
+  - intent: orcamento_economizar_apertado
+  - action: utter_orcamento_economizar_apertado
+
+- rule: orcamento_lidar_despesas_inesperadas
+  steps:
+  - intent: orcamento_lidar_despesas_inesperadas
+  - action: utter_orcamento_lidar_despesas_inesperadas
+
+- rule: coca
+  steps:
+  - intent: coca
+  - action: utter_coca
+
+- rule: cartao_credito_praticas
+  steps:
+  - intent: cartao_credito_praticas
+  - action: utter_cartao_credito_praticas
+
+- rule: melhor_cartao_credito
+  steps:
+  - intent: melhor_cartao_credito
+  - action: utter_melhor_cartao_credito
+
+- rule: evitar_dividas_cartao_credito
+  steps:
+  - intent: evitar_dividas_cartao_credito
+  - action: utter_evitar_dividas_cartao_credito
+
+- rule: importancia_entender_termos_cartao_credito
+  steps:
+  - intent: importancia_entender_termos_cartao_credito
+  - action: utter_importancia_entender_termos_cartao_credito
+
+- rule: aumentar_limite_responsavelmente
+  steps:
+  - intent: aumentar_limite_responsavelmente
+  - action: utter_aumentar_limite_responsavelmente
+
+- rule: beneficios_cartao_recompensas
+  steps:
+  - intent: beneficios_cartao_recompensas
+  - action: utter_beneficios_cartao_recompensas
+
+- rule: contestar_cobrancas_indevidas
+  steps:
+  - intent: contestar_cobrancas_indevidas
+  - action: utter_contestar_cobrancas_indevidas
+
+- rule: apr_afeta_cartao_credito
+  steps:
+  - intent: apr_afeta_cartao_credito
+  - action: utter_apr_afeta_cartao_credito
+
+- rule: sinais_trocar_cartao_credito
+  steps:
+  - intent: sinais_trocar_cartao_credito
+  - action: utter_sinais_trocar_cartao_credito
+
+- rule: construir_credito_cartao_credito
+  steps:
+  - intent: construir_credito_cartao_credito
+  - action: utter_construir_credito_cartao_credito
+
+- rule: importancia_seguro
+  steps:
+  - intent: importancia_seguro
+  - action: utter_importancia_seguro
+
+- rule: tipos_seguros
+  steps:
+  - intent: tipos_seguros
+  - action: utter_tipos_seguros
+
+- rule: comparar_opcoes_seguro
+  steps:
+  - intent: comparar_opcoes_seguro
+  - action: utter_comparar_opcoes_seguro
+
+- rule: apolice_seguro
+  steps:
+  - intent: apolice_seguro
+  - action: utter_apolice_seguro
+
+- rule: economizar_premios_seguro
+  steps:
+  - intent: economizar_premios_seguro
+  - action: utter_economizar_premios_seguro
+
+- rule: otimizar_declaracao_ir
+  steps:
+  - intent: otimizar_declaracao_ir
+  - action: utter_otimizar_declaracao_ir
+
+- rule: deducoes_fiscais
+  steps:
+  - intent: deducoes_fiscais
+  - action: utter_deducoes_fiscais
+
+- rule: compra_casa_e_impostos
+  steps:
+  - intent: compra_casa_e_impostos
+  - action: utter_compra_casa_e_impostos
+
+- rule: implicacoes_fiscais_criptomoedas
+  steps:
+  - intent: implicacoes_fiscais_criptomoedas
+  - action: utter_implicacoes_fiscais_criptomoedas
+
+- rule: economizar_impostos_investir
+  steps:
+  - intent: economizar_impostos_investir
+  - action: utter_economizar_impostos_investir
+
+- rule: declarar_renda_freelancer
+  steps:
+  - intent: declarar_renda_freelancer
+  - action: utter_declarar_renda_freelancer
+
+- rule: mudancas_leis_fiscais
+  steps:
+  - intent: mudancas_leis_fiscais
+  - action: utter_mudancas_leis_fiscais
+
+- rule: otimizar_impostos_aposentados
+  steps:
+  - intent: otimizar_impostos_aposentados
+  - action: utter_otimizar_impostos_aposentados
+
+- rule: penalidades_erros_ir
+  steps:
+  - intent: penalidades_erros_ir
+  - action: utter_penalidades_erros_ir
+
+- rule: sistema_impostos_empresarios
+  steps:
+  - intent: sistema_impostos_empresarios
+  - action: utter_sistema_impostos_empresarios
+
+- rule: transacoes_moeda_estrangeira_tributacao
+  steps:
+  - intent: transacoes_moeda_estrangeira_tributacao
+  - action: utter_transacoes_moeda_estrangeira_tributacao
+
+- rule: implicacoes_fiscais_residentes_exterior
+  steps:
+  - intent: implicacoes_fiscais_residentes_exterior
+  - action: utter_implicacoes_fiscais_residentes_exterior
+
+- rule: o_que_e_imposto_renda
+  steps:
+  - intent: o_que_e_imposto_renda
+  - action: utter_o_que_e_imposto_renda
+
+- rule: como_declarar_imposto_renda
+  steps:
+  - intent: como_declarar_imposto_renda
+  - action: utter_como_declarar_imposto_renda
+
+- rule: faixas_imposto_renda
+  steps:
+  - intent: faixas_imposto_renda
+  - action: utter_faixas_imposto_renda

@@ -1,0 +1,157 @@
+version: "3.1"
+
+intents:
+  - greet
+  - greet2
+  - goodbye
+  - goodbye2
+  - oque_vc_faz
+  - orcamento_planejamento
+  - orcamento_importancia
+  - orcamento_comecar
+  - orcamento_passos_eficientes
+  - controlar_gastos
+  - orcamento_poronde_comecar
+  - orcamento_economizar_apertado
+  - orcamento_lidar_despesas_inesperadas
+  - coca
+
+responses:
+  utter_default:
+  - text: Desculpe, não posso te ajudar com isso.
+  
+  utter_greet:
+    - text: "Olá, como posso ajudar você?"
+
+  utter_greet2:
+    - text: "Eaer meu mano, como você tá? Suave?"
+
+  utter_goodbye:
+    - text: "Foi ótimo conversar com você. Se tiver mais dúvidas, não hesite em me perguntar. Até mais!"
+
+  utter_goodbye2:
+    - text: "Obrigado por me usar. Até mais."
+
+  utter_oque_vc_faz:
+    - text: "Eu sou um assistente de educação financeira projetado para fornecer informações e orientações sobre uma variedade de tópicos financeiros. Algumas das minhas funções incluem ajudar com várias questões relacionadas a orçamento, investimentos, dívidas e mais."
+
+  utter_orcamento_planejamento:
+    - text: "Para fazer um planejamento financeiro eficaz, comece listando todas as suas fontes de renda e despesas. Categorize seus gastos, estabeleça metas realistas e monitore regularmente seu orçamento para ajustes necessários."
+
+  utter_orcamento_importancia:
+    - text: "Ter um orçamento é crucial para controlar gastos, economizar dinheiro e alcançar metas financeiras. Proporciona uma visão clara de suas finanças, ajudando a tomar decisões informadas."
+
+  utter_orcamento_comecar:
+    - text: "Comece organizando seus recibos e documentos financeiros. Liste todas as suas contas, crie um orçamento mensal e avalie suas dívidas. Considere também criar um fundo de emergência."
+
+  utter_orcamento_passos_eficientes:
+    - text: "Passos essenciais para criar um orçamento eficiente incluem identificar fontes de renda, listar despesas, categorizar gastos, estabelecer metas, monitorar regularmente e fazer ajustes conforme necessário."
+
+  utter_controlar_gastos:
+    - text: "Controle seus gastos mantendo registros detalhados, utilizando aplicativos financeiros, definindo limites para categorias de gastos e revisando suas despesas regularmente para identificar áreas de melhoria."
+
+  utter_orcamento_poronde_comecar:
+    - text: "Comece identificando suas fontes de renda, listando todas as despesas mensais e estabelecendo metas financeiras realistas. Isso fornecerá a base para seu orçamento pessoal."
+
+  utter_orcamento_economizar_apertado:
+    - text: "Sim, é possível economizar mesmo com um orçamento apertado. Priorize suas despesas, elimine gastos desnecessários e procure maneiras de cortar custos, como compras conscientes e comparando preços."
+
+  utter_orcamento_lidar_despesas_inesperadas:
+    - text: "Lide com despesas inesperadas reservando uma parte do seu orçamento para emergências. Ter um fundo de emergência ajuda a cobrir custos inesperados sem comprometer seu orçamento mensal."
+
+  utter_coca:
+    - text: "Para conseguir esses resultados, talvez algo no ramo da coca seja uma boa opção."
+
+  utter_cartao_credito_praticas:
+    - text: "Ao usar cartões de crédito, é recomendável pagar o saldo integral a cada mês, evitar atrasos no pagamento, e monitorar regularmente suas transações. Também é aconselhável definir um orçamento para suas despesas com cartão."
+
+  utter_melhor_cartao_credito:
+    - text: "A escolha do melhor cartão de crédito depende das suas necessidades individuais. Recomendo comparar taxas de juros, benefícios, programas de recompensas e anuidades. Considere aquele que se alinha melhor com seus hábitos de gastos e necessidades."
+
+  utter_evitar_dividas_cartao_credito:
+    - text: "Para evitar dívidas no cartão de crédito, pague sempre o saldo integral, estabeleça limites de gastos, e evite acumular saldos. Monitore suas despesas regularmente e ajuste seu orçamento conforme necessário."
+
+  utter_importancia_entender_termos_cartao_credito:
+    - text: "Entender os termos do seu cartão de crédito é crucial para tomar decisões financeiras informadas. Familiarize-se com taxas de juros, anuidades, limites de crédito e benefícios associados ao seu cartão."
+
+  utter_aumentar_limite_responsavelmente:
+    - text: "Aumentar seu limite de crédito de forma responsável envolve pagar suas contas em dia, manter um bom histórico de crédito e demonstrar responsabilidade financeira. Entre em contato com seu emissor para discutir possíveis aumentos."
+
+  utter_beneficios_cartao_recompensas:
+    - text: "Os cartões de crédito com recompensas oferecem benefícios como milhas, pontos ou cashback em troca de seus gastos. Escolha um programa de recompensas alinhado com suas preferências de estilo de vida e gastos."
+
+  utter_contestar_cobrancas_indevidas:
+    - text: "Se identificar cobranças indevidas, entre em contato imediatamente com seu emissor de cartão. Eles podem ajudar a contestar as transações e reverter quaisquer encargos incorretos."
+
+  utter_apr_afeta_cartao_credito:
+    - text: "APR (Annual Percentage Rate) representa a taxa anual de juros no seu cartão de crédito. Afeta o custo de empréstimos e saldos não pagos. Quanto menor o APR, melhor para você."
+
+  utter_sinais_trocar_cartao_credito:
+    - text: "Considere trocar seu cartão de crédito se estiver insatisfeito com taxas, benefícios ou atendimento ao cliente. Procure por ofertas mais competitivas e alinhadas com suas necessidades financeiras."
+
+  utter_construir_credito_cartao_credito:
+    - text: "Para construir crédito usando um cartão de crédito, pague sempre em dia, mantenha saldos baixos, e evite abrir muitos cartões de crédito simultaneamente. Um histórico de crédito positivo é fundamental para construir sua pontuação de crédito."
+
+  utter_importancia_seguro:
+    - text: "Ter um seguro é fundamental para proteger seus bens e garantir segurança financeira em caso de imprevistos. Ele oferece tranquilidade e ajuda a mitigar riscos financeiros."
+
+  utter_tipos_seguros:
+    - text: "Existem diversos tipos de seguros a serem considerados, incluindo seguro de vida, seguro saúde, seguro de automóvel, seguro residencial e seguro contra acidentes. A escolha depende das suas necessidades específicas."
+
+  utter_comparar_opcoes_seguro:
+    - text: "Ao comparar opções de seguro, leve em consideração coberturas oferecidas, prêmios, franquias e reputação da seguradora. Consultar avaliações e obter cotações de diferentes empresas pode ajudar na tomada de decisão."
+
+  utter_apolice_seguro:
+    - text: "Uma apólice de seguro é um contrato entre o segurado e a seguradora, estabelecendo os termos e condições da cobertura. Ela detalha as responsabilidades de ambas as partes e as condições em que as indenizações são pagas."
+
+  utter_economizar_premios_seguro:
+    - text: "Para economizar em prêmios de seguro, considere aumentar a franquia, manter um bom histórico de condução, instalar dispositivos de segurança, e agrupar diferentes tipos de seguro com a mesma seguradora para obter descontos."
+
+  utter_otimizar_declaracao_ir:
+    - text: "Para otimizar sua declaração de imposto de renda, mantenha registros detalhados, aproveite deduções disponíveis, e consulte um profissional de impostos para garantir que você esteja maximizando benefícios fiscais."
+
+  utter_deducoes_fiscais:
+    - text: "Deduções fiscais comuns incluem despesas médicas, contribuições de caridade, juros hipotecários e despesas relacionadas a trabalho. Mantenha recibos e comprovantes para aproveitar essas deduções."
+
+  utter_compra_casa_e_impostos:
+    - text: "A compra de uma casa pode afetar sua situação fiscal, proporcionando deduções de juros hipotecários e impostos sobre propriedades. Consulte um profissional de impostos para entender completamente o impacto."
+
+  utter_implicacoes_fiscais_criptomoedas:
+    - text: "Investir em criptomoedas tem implicações fiscais. Transações de cripto são tributáveis, e ganhos ou perdas devem ser declarados. Mantenha registros precisos e consulte um profissional de impostos."
+
+  utter_economizar_impostos_investir:
+    - text: "Economize em impostos ao investir considerando contas de aposentadoria, estratégias de ganho de capital, e aproveitando incentivos fiscais para investimentos específicos."
+
+  utter_declarar_renda_freelancer:
+    - text: "Se você trabalha como freelancer, declare sua renda adicional de forma precisa. Mantenha registros detalhados de despesas relacionadas ao trabalho e aproveite deduções disponíveis."
+
+  utter_mudancas_leis_fiscais:
+    - text: "Fique atualizado sobre mudanças nas leis fiscais, pois estas podem afetar suas obrigações tributárias. Consulte fontes confiáveis e, se necessário, busque a orientação de um profissional de impostos."
+
+  utter_otimizar_impostos_aposentados:
+    - text: "Aposentados podem otimizar seus impostos aproveitando deduções específicas para idosos, considerando renda de aposentadoria, e explorando benefícios fiscais disponíveis para sua faixa etária."
+
+  utter_penalidades_erros_ir:
+    - text: "Evite penalidades por erros na declaração de imposto de renda mantendo registros precisos, revisando cuidadosamente sua declaração e consultando um profissional de impostos, se necessário."
+
+  utter_sistema_impostos_empresarios:
+    - text: "Para pequenos empresários, compreender o sistema de impostos é crucial. Mantenha registros financeiros detalhados, considere estruturas tributárias eficientes e consulte um contador para orientação."
+
+  utter_transacoes_moeda_estrangeira_tributacao:
+    - text: "Transações em moeda estrangeira são tributadas. Entenda as regras de tributação para ganhos ou perdas cambiais e mantenha registros precisos para relatar corretamente essas transações."
+
+  utter_implicacoes_fiscais_residentes_exterior:
+    - text: "Residentes fiscais no exterior têm obrigações fiscais específicas. Consulte um profissional de impostos familiarizado com regulamentações internacionais para garantir conformidade."
+
+  utter_o_que_e_imposto_renda:
+    - text: "Imposto de renda é um tributo sobre a renda recebida por pessoas físicas e empresas. É uma fonte importante de receita para governos e é usado para financiar serviços públicos."
+
+  utter_como_declarar_imposto_renda:
+    - text: "Para declarar imposto de renda, reúna documentos fiscais relevantes, preencha corretamente os formulários de declaração e envie à Receita Federal dentro do prazo estabelecido."
+
+  utter_faixas_imposto_renda:
+    - text: "As faixas de imposto de renda representam diferentes intervalos de renda com taxas de tributação progressivas. Quanto maior a renda, maior a alíquota aplicada. Consulte as tabelas fiscais atualizadas."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,214 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+    - oi
+    - ooi
+    - oie
+    - oe
+    - olá
+    - ola
+    - como vai?
+    - quem eh vc?
+    - quem é vc?
+    - quem eh voceh?
+    - quem eh você?
+    - quem é vocêh?
+    - quem é você?
+
+- intent: greet2
+  examples: |
+    - salve
+    - opa
+    - eaer
+    - eae
+
+- intent: oque_vc_faz
+  examples: |
+    - me ajuda
+    - preciso de ajuda
+    - Qual sua função?
+    - O que você faz?
+    - Pode me auxiliar?
+    - Com o que você trabalha?
+    - Qual assunto você domina?
+    - Como pode me ajudar?
+    - O que você entende?
+    - Quais seus conhecimentos?
+
+- intent: goodbye
+  examples: |
+    - tchau
+    - tchau rasa
+    - até mais
+    - até logo
+    - Obrigado por tudo
+
+- intent: goodbye2
+  examples: |
+    - vai com deus
+    - xau
+    - é noix
+    - é nois
+    - valeu
+
+- intent: orcamento_planejamento
+  examples: |
+    - Como posso criar um orçamento
+
+- intent: orcamento_importancia
+  examples: |
+    - Qual a importancia de ter um orçamento
+
+- intent: orcamento_comecar
+  examples: |
+    - Como posso criar um orçamento mensal?
+
+- intent: orcamento_passos_eficientes
+  examples: |
+    - Quais são os passos para fazer um planejamento financeiro eficaz?
+
+- intent: controlar_gastos
+  examples: |
+    - Como equilibrar despesas e receitas em um orçamento?
+
+- intent: orcamento_poronde_comecar
+  examples: |
+    - Quais são algumas estratégias para economizar dinheiro em um orçamento?
+
+- intent: orcamento_economizar_apertado
+  examples: |
+    - É possível economizar dinheiro mesmo com um orçamento apertado?
+    
+- intent: orcamento_lidar_despesas_inesperadas
+  examples: |
+    - Como ajustar meu orçamento se minha situação financeira mudar?
+
+- intent: coca
+  examples: |
+    - Como ganhar 10% ao mês
+    - Como ganhar 18% ao ano
+    - Como ganhar 30% ao mês
+    - Como ganhar dinheiro
+    - Como ganhar dinheiro fácil e rápido
+
+- intent: cartao_credito_praticas
+  examples: |
+    - Quais são as melhores práticas ao usar cartões de crédito?
+
+- intent: evitar_dividas_cartao_credito
+  examples: |
+    - Dicas para evitar dívidas no cartão de crédito?
+
+- intent: importancia_entender_termos_cartao_credito
+  examples: |
+    - Qual é a importância de entender os termos do meu cartão de crédito?
+
+- intent: aumentar_limite_responsavelmente
+  examples: |
+    - Como posso aumentar meu limite de crédito de forma responsável?
+
+- intent: beneficios_cartao_recompensas
+  examples: |
+    - Quais são os benefícios de um cartão de crédito com recompensas?
+
+- intent: contestar_cobrancas_indevidas
+  examples: |
+    - Como contestar cobranças indevidas no meu cartão de crédito?
+
+- intent: apr_afeta_cartao_credito
+  examples: |
+    - O que é APR e como isso afeta meu cartão de crédito?
+
+- intent: sinais_trocar_cartao_credito
+  examples: |
+    - Quais são os sinais de que devo trocar meu cartão de crédito?
+
+- intent: construir_credito_cartao_credito
+  examples: |
+    - Como faço para construir crédito usando um cartão de crédito?
+
+- intent: importancia_seguro
+  examples: |
+    - O que é um seguro?
+    - Por que é importante ter um seguro?
+
+- intent: tipos_seguros
+  examples: |
+    - Quais são os tipos de seguros que devo considerar?
+
+- intent: comparar_opcoes_seguro
+  examples: |
+    - Como comparar opções de seguro?
+
+- intent: apolice_seguro
+  examples: |
+    - O que é uma apólice de seguro e como funciona?
+
+- intent: economizar_premios_seguro
+  examples: |
+    - Dicas para economizar em prêmios de seguro
+
+- intent: otimizar_declaracao_ir
+  examples: |
+    - Como posso otimizar minha declaração de imposto de renda?
+
+- intent: deducoes_fiscais
+  examples: |
+    - Quais são as deduções fiscais mais comuns e como posso aproveitá-las?
+
+- intent: compra_casa_e_impostos
+  examples: |
+    - Como a compra de uma casa afeta minha situação fiscal?
+
+- intent: implicacoes_fiscais_criptomoedas
+  examples: |
+    - Quais são as implicações fiscais de investir em criptomoedas?
+
+- intent: economizar_impostos_investir
+  examples: |
+    - Estratégias para economizar em impostos ao investir
+
+- intent: declarar_renda_freelancer
+  examples: |
+    - Como declarar renda de fontes adicionais, como trabalho freelancer?
+
+- intent: mudancas_leis_fiscais
+  examples: |
+    - Quais são as mudanças recentes nas leis fiscais que devo estar ciente?
+
+- intent: otimizar_impostos_aposentados
+  examples: |
+    - Como aposentados podem otimizar seus impostos?
+
+- intent: penalidades_erros_ir
+  examples: |
+    - Quais são as penalidades comuns por erros na declaração de imposto de renda?
+
+- intent: sistema_impostos_empresarios
+  examples: |
+    - Como funciona o sistema de impostos para pequenos empresários?
+
+- intent: transacoes_moeda_estrangeira_tributacao
+  examples: |
+    - Como as transações em moeda estrangeira são tributadas?
+
+- intent: implicacoes_fiscais_residentes_exterior
+  examples: |
+    - Quais são as implicações fiscais para residentes fiscais no exterior?
+
+- intent: o_que_e_imposto_renda
+  examples: |
+    - O que é imposto de renda?
+
+- intent: como_declarar_imposto_renda
+  examples: |
+    - Como declarar imposto de renda?
+
+- intent: faixas_imposto_renda
+  examples: |
+    - Quais são as faixas de imposto de renda?

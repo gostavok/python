@@ -1,0 +1,7 @@
+POST http://localhost:5005/webhooks/rest/webhook
+Content-type: application/json; charset=utf-8
+Accept-Charset:utf-8
+
+{
+  "sender": "user123",
+  "message": "nao se

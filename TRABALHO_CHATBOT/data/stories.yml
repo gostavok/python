@@ -1,0 +1,50 @@
+version: "3.1"
+
+stories:
+
+#- story: happy path
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: oque_vc_faz
+#  - action: utter_oque_vc_faz
+#
+#- story: happy path 2
+#  steps:
+#  - intent: greet2
+#  - action: utter_greet2
+#  - intent: oque_vc_faz
+#  - action: utter_oque_vc_faz
+#
+#- story: super happy money
+#  steps:
+#  - intent: coca
+#  - action: utter_coca
+#
+#- story: investimentos
+#  steps:
+#  - intent: informacao_orcamento
+#  - action: utter_informacao_orcamento
+#  - intent: investimento
+#  - action: utter_investimento
+#  - intent: fundo_emergencial
+#  - action: utter_fundo_emergencial
+#  - intent: guardar_dinheiro
+#  - action: utter_guardar_dinheiro
+#
+#- story: divida
+#  steps:
+#  - intent: duvidas_dividas
+#  - action: utter_duvidas_dividas
+#  - intent: emprestimos
+#  - action: utter_emprestimos
+#  - intent: cartao_credito
+#  - action: utter_cartao_credito
+#  - intent: pontuacao_credito
+#  - action: utter_pontuacao_credito
+#
+#- story: orcamento
+#  steps:
+#  - intent: informacao_orcamento
+#  - action: utter_informacao_orcamento
+#
