@@ -13,12 +13,6 @@ nlu:
     - olá
     - ola
     - como vai?
-    - quem eh vc?
-    - quem é vc?
-    - quem eh voceh?
-    - quem eh você?
-    - quem é vocêh?
-    - quem é você?
 
 - intent: greet2
   examples: |
@@ -36,6 +30,12 @@ nlu:
     - Pode me auxiliar?
     - Com o que você trabalha?
     - Qual assunto você domina?
+    - quem eh vc?
+    - quem é vc?
+    - quem eh voceh?
+    - quem eh você?
+    - quem é vocêh?
+    - quem é você?
     - Como pode me ajudar?
     - O que você entende?
     - Quais seus conhecimentos?

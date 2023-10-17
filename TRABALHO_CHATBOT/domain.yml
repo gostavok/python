@@ -3,9 +3,9 @@ version: "3.1"
 intents:
   - greet
   - greet2
+  - oque_vc_faz
   - goodbye
   - goodbye2
-  - oque_vc_faz
   - orcamento_planejamento
   - orcamento_importancia
   - orcamento_comecar
@@ -15,6 +15,35 @@ intents:
   - orcamento_economizar_apertado
   - orcamento_lidar_despesas_inesperadas
   - coca
+  - cartao_credito_praticas
+  - evitar_dividas_cartao_credito
+  - importancia_entender_termos_cartao_credito
+  - aumentar_limite_responsavelmente
+  - beneficios_cartao_recompensas
+  - contestar_cobrancas_indevidas
+  - apr_afeta_cartao_credito
+  - sinais_trocar_cartao_credito
+  - construir_credito_cartao_credito
+  - importancia_seguro
+  - tipos_seguros
+  - comparar_opcoes_seguro
+  - apolice_seguro
+  - economizar_premios_seguro
+  - otimizar_declaracao_ir
+  - deducoes_fiscais
+  - compra_casa_e_impostos
+  - implicacoes_fiscais_criptomoedas
+  - economizar_impostos_investir
+  - declarar_renda_freelancer
+  - mudancas_leis_fiscais
+  - otimizar_impostos_aposentados
+  - penalidades_erros_ir
+  - sistema_impostos_empresarios
+  - transacoes_moeda_estrangeira_tributacao
+  - implicacoes_fiscais_residentes_exterior
+  - o_que_e_imposto_renda
+  - como_declarar_imposto_renda
+  - faixas_imposto_renda
 
 responses:
   utter_default:

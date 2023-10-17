@@ -4,4 +4,46 @@ Accept-Charset:utf-8
 
 {
   "sender": "user123",
-  "message": "nao se
+  "message": "como equilibrar as despesas"
+}
+//  como evitar dividas no cartao
+// como equilibrar as despesas
+####
+
+
+GUSTAVO
+oi
+quem eh vc
+é importante ter seguro?
+como equilibrar as despesas
+obrigado
+
+GUILHERME 
+oi
+como evitar dividas no cartao
+tchau
+
+
+
+GET http://localhost:5005/conversations/gustavo/continue
+###
+GET http://localhost:5005/api/v1/users
+
+###
+GET http://localhost:5005/status
+
+###
+
+GET http://localhost:5005/conversations
+###
+
+GET http://localhost:5005/webhooks/rest/webhook
+
+###
+
+GET localhost:5005/conversations/gustavo/respond
+
+###
+
+GET http://localhost:5005/conversations/<usuario>/tracker
+
